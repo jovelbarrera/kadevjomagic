@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MagicKadevjo"
+    x:Class="MagicKadevjo.MagicKadevjoPage"
+    BackgroundColor="#ED072E">
+    <StackLayout>
+        <!--<Label
+            Margin="20"
+            Text="¡Pregúntale algo al Kadevjo Mágico!"
+            HorizontalTextAlignment="Center"
+            FontAttributes="Bold"
+            FontSize="Large"
+            TextColor="White"/>
+        <Image Source="kadevjo.png" x:Name="playButton" VerticalOptions="Center"/>-->
+        <StackLayout BackgroundColor="White" Padding="50">
+            <ProgressBar Progress="0.8" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
