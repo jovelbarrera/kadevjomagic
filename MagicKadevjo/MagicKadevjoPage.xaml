@@ -5,16 +5,16 @@
     x:Class="MagicKadevjo.MagicKadevjoPage"
     BackgroundColor="#ED072E">
     <StackLayout>
-        <!--<Label
+        <Label
             Margin="20"
             Text="¡Pregúntale algo al Kadevjo Mágico!"
             HorizontalTextAlignment="Center"
             FontAttributes="Bold"
             FontSize="Large"
             TextColor="White"/>
-        <Image Source="kadevjo.png" x:Name="playButton" VerticalOptions="Center"/>-->
-        <StackLayout BackgroundColor="White" Padding="50">
+        <Image Source="kadevjo.png" x:Name="playButton" VerticalOptions="Center"/>
+        <!--<StackLayout BackgroundColor="White" Padding="50">
             <ProgressBar Progress="0.8" />
-        </StackLayout>
+        </StackLayout>-->
     </StackLayout>
 </ContentPage>
